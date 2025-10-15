@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="PL-pl">
+
+<head>
+<meta charset="utf-8">
+<title>SKIER-GAZ</title>
+<link rel="stylesheet" href="styl.css">
+<script>
+
+function funkcja(){
+var x = document.getElementById('p1').value;
+var y = document.getElementById('p2').value;
+
+if (x==1){
+	document.getElementById('wynik').innerHTML="koszt paliwa:"+y*4+"zł"+"<br>"+"Dziękujemy za korzystanie z usług naszej strony";	
+}
+
+else if (x==2){
+	document.getElementById('wynik').innerHTML="koszt paliwa:"+y*3.5+"zł"+"<br>"+"Dziękujemy za korzystanie z usług naszej strony";
+}
+else {
+document.getElementById('wynik').innerHTML="koszt paliwa:"+"0 zł"+"<br>"+"BŁĄD";}
+
+}
+
+
+
+</script>
+</head>
+
+<body>
+<div id="baner">
+<h1>Całodobowa stacja paliw</h1>
+</div>
+
+
+
+<div id="menu">
+<a href="egzaminek.html"> <img src="home1.png"></a>
+<a href="obliczenia.html"> <img src="znak1.png"></a>
+<a href="kwerendycz22prak2.txt"> Pobierz dokumenty<a>
+</div>
+
+<div id="lewy">
+<h2>Orientacyjny koszt paliwa</h2>
+Rodzaj paliwa(1-benzyna,2-olej napędowy)<br>
+<input type="number" min="1" max="2" id="p1">
+<br>Ile litrów?<br>
+<input type="number" id="p2" min="1" max="1000">
+<input type="button" id="przycisk" value="oblicz" id="b1" onclick="funkcja()">
+<p id="wynik"> </p>
+</div>
+
+<div id="prawy">
+<a href="egzaminek.html"><img src="samochod1.png" id="z1" alt="samochód"></a>
+</div>
+<div id="stopka">
+<p>Stronę opracował: 04240042042 </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

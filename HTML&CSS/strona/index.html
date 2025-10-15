@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Święto Kwiatów Owoców i Warzyw</title>
+  <link rel="stylesheet" href="style.css">
+  <script >
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("open");
+    }
+  </script>
+</head>
+<body>
+
+  <header>
+    <h1>Święto Kwiatów, Owoców i Warzyw</h1>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav id="menu">
+      <a href="index.html">Strona główna</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="plan.html">Plan wydarzeń</a>
+      <a href="mapa.html">Mapa</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Witamy w Skierniewicach!</h2>
+      <p>Skierniewickie Święto Kwiatów, Owoców i Warzyw to jedno z największych i najbardziej kolorowych wydarzeń w regionie. Odbywa się co roku we wrześniu i przyciąga tłumy mieszkańców oraz turystów. Podczas święta miasto zamienia się w prawdziwą festiwalową przestrzeń pełną kwiatów, owoców i warzyw. W programie znajdują się parady, koncerty, targi ogrodniczo-rolne, wystawy oraz pokazy. Nie brakuje również stoisk handlowych i stref gastronomicznych, gdzie można spróbować lokalnych przysmaków.
+
+
+
+</p>
+    </section>
+
+    <section class="h-scroll">
+      <h3>Parady</h3>
+      <div class="scroll-container">
+        <img src="parada1.jpg" >
+        <img src="parada2.jpg" >
+        <img src="parada3.jpg" >
+        <img src="parada4.jpg" >
+        <img src="parada5.jpg" >
+        <img src="parada6.jpg" >
+        <img src="parada7.jpg" >
+      </div>
+    </section>
+
+     <section>
+      <h3>Program Koncertów na Scenie Głównej</h3>
+      <table>
+        <tr><th>Godzina</th><th>Wydarzenie</th></tr>
+        <tr><th colspan="2">Piątek</th></tr>
+        <tr><td>18:00</td><td>Otsochodzi</td></tr>
+        <tr><td>19:15</td><td>Kronkel Dom</td></tr>
+        <tr><td>20:30</td><td>Guzior</td></tr>
+        <tr><td>21:45</td><td>Reto</td></tr>
+        <tr><th colspan="2">Sobota</th></tr>
+        <tr><td>18:00</td><td>Smolik/Kev Fox</td></tr>
+        <tr><td>19:20</td><td>Kombi Łosowski</td></tr>
+        <tr><td>20:45</td><td>Dawid Kwiatkowski</td></tr>
+        <tr><td>22:20</td><td>Wilki</td></tr>
+        <tr><th colspan="2">Niedziela</th></tr>
+        <tr><td>17:00</td><td>Kacperczyk</td></tr>
+        <tr><td>18:20</td><td>Brodka</td></tr>
+        <tr><td>19:40</td><td>Margaret</td></tr>
+        <tr><td>21:20</td><td>Artur Rojek</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h3>Kontakt</h3>
+      <form id="kontakt">
+        <input type="text" placeholder="Imię" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Wiadomość" required></textarea>
+        <button type="submit">Wyślij</button>
+      </form>
+    </section>
+
+    <section class="galeria-grid">
+      <img src="owoce.jpg">
+      <img src="warzywa.jpg">
+      <img src="kwiaty.jpg"">
+    </section>
+  </main>
+
+  <footer>
+    <p> 2024 Skierniewice</p>
+    <div class="social">
+      <a href="https://www.facebook.com/skoiw.skierniewice/?locale=pl_PL"><img src="fb.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/skoiw_skierniewice"><img src="ig.png" alt="Instagram"></a>
+    </div>
+  </footer>
+
+</body>
+</html>

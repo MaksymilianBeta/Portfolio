@@ -1,0 +1,51 @@
+#lista {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rosybrown;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  
+  .sub-item-link{
+  text-decoration:none;
+  }
+  
+  .sub-item-link:hover{
+  color:yellow;
+  
+  }
+  .sub-item-link:active{
+  color:green;
+  
+  }
+  
+  .sub-item-link:focus{
+  outline: 2px solid blue;
+  
+  }
+  
+  .sub-item-link:visited{
+  color:brown;
+  
+  }
+  

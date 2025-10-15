@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="PL">
+	<head>
+		<meta charset="utf-8">
+		<title>malarz</title>
+		<link rel="stylesheet" href="styl_1.css">
+	<script>
+	
+	function obl(){
+	var pow =document.getElementById("liczba").value;
+	var obliczenie
+	obliczenie=Math.ceil(pow/4);
+	document.getElementById("wynik").innerHTML="Liczba potrzebnych puszek "+obliczenie;
+	}
+	
+	
+	</script>
+	</head>
+
+
+	<body>
+	<section id="baner">
+		<h1>Malowanie pokoi i biur</h1>
+	</section>
+	
+	<section id="lewy">
+		<h2>Menu</h2>
+		<ul>
+		<li><a href="mieszamy.html">Mieszamy</a></li>
+		<li><a href="cena.html">Wyceniamy</a></li>
+		</ul>
+	</section>
+	
+	<section id="srodek">
+		<h2>Zapotrzebowanie na farbę</h2>
+		Powierzchnia malowania m<sup>2</sup><input type="number" id="liczba">
+		<input type="button" id="przycisk" value="oblicz" onclick="obl()">
+		<p id="wynik"> </p>
+	</section>
+	
+	<section id="prawy">
+		<img src="obraz.png" alt="próbki farb">
+	</section>
+	
+	<section id="stopka">
+		<h3>Malarz</h3>
+		<p>Strone opracował:MAKSIU</p>
+	</section>
+	</body>
+
+
+
+</html>

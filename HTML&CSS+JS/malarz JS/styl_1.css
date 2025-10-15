@@ -1,0 +1,50 @@
+*{
+	font-family:Cambria
+}
+#baner,#stopka{
+	background-color:#829EB9;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+#lewy,#prawy{
+	background-color:#B3C6D9;
+	height:400px;
+	width:25%;
+	padding-top:100px;
+	float:left;
+}
+#srodek{
+	background-color:#E0E9F1;
+	height:400px;
+	width:50%;
+	text-align:center;
+	padding-top:100px;
+	float:left;
+	
+}
+
+table{
+	border:1px solid DimGray;
+	border-collapse:collapse;
+	width:80%;
+	margin:auto;
+}
+th:hover{
+	background-color:SteelBlue;
+	color:white;
+}
+td:hover{
+	background-color:SteelBlue;
+	color:white;
+}
+#stopka{
+	clear:both;
+}
+tr,th,td{
+	border:1px solid DimGray;
+}
+img{
+	width:100%;
+	border-radius:20px;
+}

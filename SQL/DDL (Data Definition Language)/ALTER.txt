@@ -1,0 +1,2 @@
+1.
+ALTER TABLE dostawcy ADD COLUMN informacje int;

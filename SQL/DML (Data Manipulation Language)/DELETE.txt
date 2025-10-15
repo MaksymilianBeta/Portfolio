@@ -1,0 +1,2 @@
+1.
+DELETE FROM `uzytkownik` WHERE id ='63';

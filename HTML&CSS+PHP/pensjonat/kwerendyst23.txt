@@ -1,0 +1,5 @@
+1.SELECT * FROM pokoje;
+2.SELECT rezerwacje.id_pok, rezerwacje.sezon FROM `rezerwacje` WHERE rezerwacje.liczba_dn>7;
+3.SELECT SUM(rezerwacje.liczba_dn) from rezerwacje where rezerwacje.sezon="zima";
+4.UPDATE rezerwacje SET liczba_dn="4" WHERE rezerwacje.liczba_dn<4;
+5.CREATE USER najemca identified by 'n@JEM1@!';

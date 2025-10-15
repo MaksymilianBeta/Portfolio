@@ -1,0 +1,6 @@
+1.
+UPDATE samochody Set stan="dobry" where stan="zly" and rocznik > 2003;
+2.
+UPDATE rezerwacje SET liczba_dn="4" WHERE rezerwacje.liczba_dn<4;
+3.
+UPDATE `uczniowie` SET `plec`='M' WHERE uczniowie.imie="Kamil";

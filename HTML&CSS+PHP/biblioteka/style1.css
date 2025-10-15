@@ -1,0 +1,38 @@
+*{
+	font-family:tahoma;
+}
+#baner,#stopka{
+	background-color:SaddleBrown;
+	color:white;
+	padding:3px;
+	text-align:center;
+}
+#lewy,#prawy{
+	background-color:tan;
+	height:400px;
+	width:40%;
+	float:left;
+}
+#srodek{
+	background-color:Wheat;
+	height:400px;
+	width:20%;
+	float:left;
+}
+img{
+	margin-right:20px;
+	float:right;
+}
+h4{
+	text-align:center;
+}
+input{
+	margin:5px;
+}
+option:hover{
+	background-color:Sienna;
+	color:white;
+}
+#stopka{
+	clear:both;
+}

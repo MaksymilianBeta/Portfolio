@@ -1,0 +1,2 @@
+1.
+INSERT INTO `czytelnicy`(`id`, `imie`, `nazwisko`, `kod`) VALUES ('NULL','Ewelina','Romanowska','56677');

@@ -1,0 +1,6 @@
+1.
+CREATE USER jan identified by 'janKowalski1@';
+2.
+GRANT SELECT, INSERT, UPDATE on baza.maksio to jan;
+3.
+CREATE USER najemca identified by 'n@JEM1@!';

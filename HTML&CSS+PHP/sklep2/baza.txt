@@ -1,0 +1,54 @@
+Tabela:
+
+CREATE TABLE farby
+(
+id_farby int(11) AUTO_INCREMENT NOT NULL PRIMARY KEY,
+kolor text,
+cena int(11),
+pojemnosc int(11)
+);
+
+CREATE TABLE malowanie
+(
+id_pomieszczenia int(11) NOT NULL,
+id_sciany int(11) NOT NULL,
+id_farby int(11),
+liczba_puszek int(11)
+);
+
+ALTER TABLE malowanie
+ADD PRIMARY KEY(id_pomieszczenia, id_sciany);
+
+ALTER TABLE malowanie
+ADD FOREIGN KEY(id_farby) 
+REFERENCES farby(id_farby);
+
+Dane:
+
+INSERT INTO farby
+VALUES
+(NULL, 'czarny', 80.50, 1),
+(NULL, 'czarny', 120.25, 2),
+(NULL, 'czarny', 150.99, 3),
+(NULL, 'czerwony', 50.57, 1),
+(NULL, 'czerwony', 100.50, 2),
+(NULL, 'bialy', 77.45, 2),
+(NULL, 'bialy', 220.50, 5),
+(NULL, 'zielony', 45.49, 3),
+(NULL, 'niebieski', 120.50, 1),
+(NULL, 'zolty', 137.50, 5);
+
+
+INSERT INTO malowanie
+VALUES
+(1, 1, 2, 2),
+(1, 2, 1, 3),
+(1, 3, 3, 1),
+(1, 4, 4, 4),
+(2, 1, 7, 1),
+(2, 2, 8, 2),
+(2, 3, 2, 4),
+(3, 4, 7, 10),
+(3, 5, 10, 7),
+(3, 1, 3, 4);
+

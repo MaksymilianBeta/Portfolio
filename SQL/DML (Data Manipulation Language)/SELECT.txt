@@ -1,0 +1,30 @@
+1.
+SELECT `cena`,`pojemnosc` FROM `farby` WHERE farby.kolor="czerwony";
+2.
+SELECT kolor , TRUNCATE((cena/pojemnosc),2) AS cena_jednostkowa FROM `farby`;
+3.
+SELECT kolor, liczba_puszek FROM `farby` INNER JOIN malowanie on farby.id_farby=malowanie.id_farby;
+4.
+SELECT `imie`, `nazwisko` FROM `czytelnicy` order by `nazwisko` ASC;
+5.
+SELECT `tytul` FROM `ksiazki` WHERE id_autor="8";
+6.
+SELECT `nazwisko`, COUNT(ksiazki.id) AS ile_tytulow from autorzy 
+INNER JOIN ksiazki on autorzy.id=ksiazki.id_autor 
+group by autorzy.nazwisko;
+7.
+SELECT marka,rocznik from maksio where kolor="czarny";
+8.
+SELECT COUNT(id) from maksio where stan="dobry";
+9.
+SELECT * FROM pokoje;
+10.
+SELECT rezerwacje.id_pok, rezerwacje.sezon FROM `rezerwacje` WHERE rezerwacje.liczba_dn>7;
+11.
+SELECT SUM(rezerwacje.liczba_dn) from rezerwacje where rezerwacje.sezon="zima";
+12.
+SELECT towary.nazwa from towary where towary.promocja="1";
+13.
+SELECT towary.cena FROM `towary` WHERE towary.nazwa="Markery 4 szt.";
+14.
+SELECT dostawcy.id , dostawcy.nazwa, COUNT(towary.id) AS liczba_towarow FROM `dostawcy` INNER JOIN towary ON dostawcy.id=towary.idDostawcy group by dostawcy.id , dostawcy.nazwa;

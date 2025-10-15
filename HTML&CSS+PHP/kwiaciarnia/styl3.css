@@ -1,0 +1,53 @@
+*{
+	font-family:Georgia;
+}
+body{
+	
+}
+#baner{
+	
+}
+#lewy{
+	background-color:#FF8A65;
+	width:25%;
+	height:500px;
+	padding-top:50px;
+	float:left;
+}
+#prawy{
+	background-color:snow;
+	width:75%;
+	height:500px;
+	text-align:center;
+	padding-top:50px;
+	float:left;
+}
+#stopka{
+	clear:both;
+}
+#baner,#stopka{
+	background-color:#C75B39;
+	color:white;
+	padding:10px;
+	text-align:center;
+}
+img{
+	width:25%;
+	margin:10px;
+	box-shadow:15px 15px 10px DimGray;
+}
+ol{
+	margin:5px;
+}
+li{
+	color:snow;
+}
+h3{
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:0px;
+	margin-right:0px;
+}
+span{
+	color:black;
+}

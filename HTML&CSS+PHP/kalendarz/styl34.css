@@ -1,0 +1,78 @@
+*{
+	font-family:Tahoma;
+	
+}
+
+
+	
+#baner{
+	background-color:#7DA453;
+	color:white;
+	height:120px;
+	width:40%;
+	float:left;
+}
+#baner2{
+	background-color:#7DA453;
+	color:white;
+	height:120px;
+	width:40%;
+	float:left;
+}
+
+#baner3{
+	background-color:#7DA453;
+	color:white;
+	height:120px;
+	width:20%;
+	float:left;
+}
+
+#glowny{
+	display:grid;
+	grid-template-columns: repeat(6,200px);
+	grid-auto-rows:100px;
+	row-gap:7px;
+	column-gap:7px;
+	justify-content:center;
+	margin:7px;
+	clear:both;
+	width:100%;
+}
+#dzien{
+	color:#AED581;
+	border: 1px solid #7DA453;
+	margin:7px;
+}
+#dzien:hover{
+	background-color:#7DA453;
+	color:white;
+}
+
+
+h5{
+	text-align:center;
+}
+form{
+	padding-top:50px;
+}
+
+	
+
+img{
+	width:100px;
+	height:100px;
+}
+
+
+
+
+
+
+
+
+#stopka{
+	background-color:#7DA453;
+	color:white;
+	padding:5px;
+clear:both;}

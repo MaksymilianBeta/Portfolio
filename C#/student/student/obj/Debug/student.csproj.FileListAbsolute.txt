@@ -1,0 +1,11 @@
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.csproj.AssemblyReference.cache
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.Form1.resources
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.Properties.Resources.resources
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.csproj.GenerateResource.cache
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.csproj.CoreCompileInputs.cache
+C:\Users\maxxb\source\repos\student\student\bin\Debug\student.exe.config
+C:\Users\maxxb\source\repos\student\student\bin\Debug\student.exe
+C:\Users\maxxb\source\repos\student\student\bin\Debug\student.pdb
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.exe
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.pdb
+C:\Users\maxxb\source\repos\student\student\obj\Debug\student.exe.config
